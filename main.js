@@ -7,6 +7,7 @@ showqueryanswer.className = "showqueryanswer";
 inputquery.addEventListener("keydown", (e) => {
   if (e.keyCode == 13) {
     // console.log(`the key is ${e.key} and it's key code is ${e.keyCode}`);
+    // after writing your prompt press enter key within the input element
     const chatbotdata = {
       "what is api": "it's called application programming interface",
       "i want help": "how we may help you sir",
